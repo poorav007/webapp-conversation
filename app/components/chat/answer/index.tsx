@@ -193,11 +193,12 @@ const Answer: FC<IAnswerProps> = ({
                     <Markdown content={content} />
                   ))}
             </div>
-            <div className='absolute top-[-14px] right-[-14px] flex flex-row justify-end gap-1'>
-              {!feedbackDisabled && !item.feedbackDisabled && renderItemOperation()}
-              {/* User feedback must be displayed */}
-              {!feedbackDisabled && renderFeedbackRating(feedback?.rating)}
-            </div>
+           <div className='absolute top-[-14px] right-[-14px] flex flex-row justify-end gap-1'>
+  {!feedbackDisabled && !item.feedbackDisabled && renderItemOperation()}
+  {!feedbackDisabled && renderFeedbackRating(feedback?.rating)}
+  <button className='moderator-btn' onClick={() => window.location.href='mailto:support@metabolictherapy.com'}>Moderator</button>
+  <a className='feedback-btn' href="https://forms.gle/your-feedback-link">Feedback</a>
+</div>
           </div>
         </div>
       </div>
