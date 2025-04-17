@@ -126,3 +126,18 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+.chat-background {
+  background-color: #FFFDD0; /* Cream */
+}
+.moderator-btn, .feedback-btn {
+  background-color: #F0FFF0; /* Lightest Green */
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.moderator-btn:hover, .feedback-btn:hover {
+  background-color: #E0FFE0; /* Slightly darker green */
+}
