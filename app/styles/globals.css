@@ -127,26 +127,35 @@ a {
   text-fill-color: transparent;
 }
 .chat-background {
-  background-color: #1e3c2b; /* Dark green background */
+  background-color: #121212; /* Dark background for modern look */
+  min-height: 100vh; /* Full height */
+  padding: 20px; /* Add padding */
 }
-
+.chat-container {
+  max-width: 800px; /* Constrain width for readability */
+  margin: 0 auto; /* Center the chat */
+  background-color: #1e1e1e; /* Slightly lighter dark for chat area */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+.chat-message {
+  background-color: #2b2b2b; /* Darker message background */
+  color: #e0e0e0; /* Light text for contrast */
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Space between messages */
+}
 .moderator-btn, .feedback-btn {
-  background-color: #4CAF50; /* Light green */
+  background-color: #0288d1; /* Professional blue */
   color: #ffffff; /* White text */
-  padding: 6px 12px; /* Slightly larger padding */
-  border-radius: 6px; /* Softer corners */
-  font-size: 14px; /* Larger text */
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease; /* Smooth hover transition */
-  
-  /* Glossy effect */
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3);
-  border: 1px solid #3a8a3d;
+  transition: background-color 0.3s ease;
 }
-
 .moderator-btn:hover, .feedback-btn:hover {
-  background-color: #3e8e41; /* Slightly darker green on hover */
-  box-shadow: 0 1px 5px rgba(0,0,0,0.3), inset 0 1px rgba(255,255,255,0.4);
+  background-color: #0277bd; /* Slightly darker blue on hover */
 }
