@@ -197,7 +197,7 @@ const Answer: FC<IAnswerProps> = ({
   {!feedbackDisabled && !item.feedbackDisabled && renderItemOperation()}
   {!feedbackDisabled && renderFeedbackRating(feedback?.rating)}
   <button className='moderator-btn' onClick={() => window.location.href='mailto:support@metabolictherapy.com'}>Moderator</button>
-  <a className='feedback-btn' href="https://forms.gle/your-feedback-link">Feedback</a>
+  <a className='feedback-btn' href="https://forms.gle/https://forms.gle/Weg2DBZv8AtV7MUT6">Feedback</a>
 </div>
           </div>
         </div>
