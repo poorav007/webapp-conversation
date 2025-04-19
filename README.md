@@ -19,10 +19,10 @@ NEXT_PUBLIC_API_URL=
 Config more in `config/index.ts` file:   
 ```js
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
+  title: 'Metabolic Therapy Bot',
+  description: 'this bot is specifically tailored for metabolic therapy',
+  copyright: 'Attributes ownership to © 2025 Metabolic Therapy Ltd. All rights reserved.',
+  privacy_policy: 'the bot collects queries (chat inputs) and feedback (via Google Form) to function, with no third-party sharing',
   default_language: 'zh-Hans'
 }
 
