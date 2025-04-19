@@ -9,10 +9,10 @@ type ActionButtonsProps = {
 
 const ActionButtons: FC<ActionButtonsProps> = ({ className = '' }) => {
   // Email address for moderator support - replace with your actual support email
-  const supportEmail = "support@yourcompany.com"
+  const supportEmail = "simon@lownonline.com"
   
   // Google Form URL - replace with your actual Google Form URL
-  const feedbackFormUrl = "https://forms.gle/yourFormIdHere"
+  const feedbackFormUrl = "https://forms.gle/MyeZMPPKJt5jeUKZA"
   
   const handleModeratorClick = () => {
     window.location.href = `mailto:${supportEmail}?subject=Health%20Chatbot%20Support%20Request&body=Hello,%20I%20need%20assistance%20with%20the%20health%20chatbot.`
