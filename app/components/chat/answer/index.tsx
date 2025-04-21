@@ -201,7 +201,7 @@ const Answer: FC<IAnswerProps> = ({
             </div>
 
             {/* Add the ActionButtons component */}
-            <div className='absolute bottom-[-40px] right-0'>
+            <div className='absolute bottom-[-40px] left-0'>
               <ActionButtons />
             </div>
           </div>
