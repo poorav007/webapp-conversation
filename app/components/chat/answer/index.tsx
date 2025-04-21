@@ -168,7 +168,7 @@ const Answer: FC<IAnswerProps> = ({
 
   return (
     <div key={id}>
-      <div className='flex items-start'> style={{ marginTop: '32px' }}>
+      <div className='flex items-start'> 
         <div className={`${s.answerIcon} w-10 h-10 shrink-0`}>
           {isResponding
             && <div className={s.typeingIcon}>
