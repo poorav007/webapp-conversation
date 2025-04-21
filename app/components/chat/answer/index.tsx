@@ -168,7 +168,7 @@ const Answer: FC<IAnswerProps> = ({
 
   return (
     <div key={id}>
-      <div className='flex items-start'>
+      <div className='flex items-start'> style={{ marginTop: '32px' }}>
         <div className={`${s.answerIcon} w-10 h-10 shrink-0`}>
           {isResponding
             && <div className={s.typeingIcon}>
@@ -176,7 +176,7 @@ const Answer: FC<IAnswerProps> = ({
             </div>
           }
         </div>
-        <div className={`${s.answerWrap}`} style={{ marginTop: '32px' }}> 
+        <div className={`${s.answerWrap}`}> 
           <div className={`${s.answer} relative text-sm text-gray-900`}>
             <div className={`ml-2 py-3 px-4 bg-gray-100 rounded-tr-2xl rounded-b-2xl ${workflowProcess && 'min-w-[480px]'}`}>
               {workflowProcess && (
