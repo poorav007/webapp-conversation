@@ -120,7 +120,7 @@ const Chat: FC<IChatProps> = ({
   return (
     <div className={cn(!feedbackDisabled && 'px-3.5', 'h-full')}>
       {/* Chat List */}
-      <div className="h-full space-y-[40px]">
+      <div className="h-full space-y-[50px]">
         {/* Disclaimer */}
         <div className="text-xs text-gray-500 px-1.5">
           <span>⚠ We’re here to support your journey. Work with a provider to safely explore metabolic therapy options.</span>
