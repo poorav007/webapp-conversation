@@ -121,6 +121,11 @@ const Chat: FC<IChatProps> = ({
     <div className={cn(!feedbackDisabled && 'px-3.5', 'h-full')}>
       {/* Chat List */}
       <div className="h-full space-y-[30px]">
+        {/* Disclaimer */}
+        <div className="text-xs text-gray-500 px-1.5">
+          <span>⚠ We’re here to support your journey. Work with a provider to safely explore metabolic therapy options.</span>
+        </div>
+
         {chatList.map((item) => {
           if (item.isAnswer) {
             const isLast = item.id === chatList[chatList.length - 1].id
