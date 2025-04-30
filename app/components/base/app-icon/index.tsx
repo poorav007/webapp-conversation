@@ -5,7 +5,7 @@ import style from './style.module.css'
 export type AppIconProps = {
   size?: 'xs' | 'tiny' | 'small' | 'medium' | 'large'
   rounded?: boolean
-  icon?: string
+  icon?: string // Can be an image URL or undefined
   background?: string
   className?: string
 }
@@ -13,6 +13,7 @@ export type AppIconProps = {
 const AppIcon: FC<AppIconProps> = ({
   size = 'medium',
   rounded = false,
+  icon,
   background,
   className,
 }) => {
@@ -28,7 +29,9 @@ const AppIcon: FC<AppIconProps> = ({
         background,
       }}
     >
-      👩‍⚕
+      {icon
+        ? <img src={icon} alt="icon" className={style.iconImage} />
+        : '👩‍⚕'}
     </span>
   )
 }
