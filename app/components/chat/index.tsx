@@ -122,7 +122,7 @@ const Chat: FC<IChatProps> = ({
       {/* Chat List */}
       <div className="h-full space-y-[50px]">
         {/* Disclaimer */}
-        <div className="text-xs text-gray-500 px-1.5">
+        <div className="text-sm text-gray-500 px-1.5">
           <span>⚠ We’re here to support your journey. Work with a provider to safely explore metabolic therapy options.</span>
         </div>
 
