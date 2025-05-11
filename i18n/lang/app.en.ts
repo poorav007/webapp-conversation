@@ -1,6 +1,6 @@
 const translation = {
   common: {
-    welcome: 'Welcome-built to support you every step of the way, via',
+    welcome: 'Hello!, Welcome to the',
     appUnavailable: 'App is unavailable',
     appUnkonwError: 'App is unavailable',
   },
@@ -15,7 +15,7 @@ const translation = {
     configStatusDes: 'Before we begin, feel free to adjust your conversation settings.',
     configDisabled:
       'Previous session settings have been used for this session.',
-    startChat: 'Start Chat',
+    startChat: ' Start Chat',
     privacyPolicyLeft:
       'Please read the ',
     privacyPolicyMiddle:
