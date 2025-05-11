@@ -1,6 +1,6 @@
 const translation = {
   common: {
-    welcome: 'Hello!, Welcome to the',
+    welcome: 'Welcome to Metabolic Therapy Bot—built to support you',
     appUnavailable: 'App is unavailable',
     appUnkonwError: 'App is unavailable',
   },
