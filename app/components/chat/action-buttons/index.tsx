@@ -27,7 +27,7 @@ const ActionButtons: FC<ActionButtonsProps> = ({ className = '' }) => {
     <div className={`action-buttons flex gap-2 ${className}`}>
       <button
         onClick={handleModeratorClick}
-        className="moderator-btn flex items-center gap-1 px-3 py-1.5 text-sm bg-white border border-gray-200 rounded-lg hover:bg-gray-50 text-gray-700"
+        className="moderator-btn flex items-center gap-1 px-6 py-1.5 text-sm bg-white border border-gray-200 rounded-lg hover:bg-gray-50 text-gray-700"
         style={{ boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.05)' }}
       >
         <EnvelopeIcon className="w-4 h-4" />
